@@ -26,72 +26,6 @@
 
 ---
 
-## ✨ Features
-
-### 1. 🎯 Pomodoro Timer (Main Screen)
-- Large circular timer display (280dp) as home screen
-- Real-time countdown with minute:second format
-- 3 quick preset buttons: Pomodoro (25m), Short Break (5m), Long Break (15m)
-- Floating Action Buttons for Start/Pause and Reset
-- Session counter tracking (1/4, 2/4, 3/4, 4/4 Pomodoro cycles)
-- Clean, professional interface with no emojis
-
-### 2. 📜 Session History (ListView)
-- Complete list of all completed focus sessions
-- Custom ListView with professional card design
-- Shows: Session type, date/time, duration, completion status
-- ViewHolder pattern for smooth scrolling performance
-- 12 pre-loaded sample sessions for demo
-- Empty state message for first-time users
-
-### 3. 📊 Statistics Dashboard
-- **4 Key Metrics:**
-  - Total Focus Time (hours)
-  - Sessions Completed (count)
-  - Average Session Duration (minutes)
-  - Total Distractions (count)
-- Personalized insights section with dynamic messages
-- Real-time data aggregation from SQLite database
-- Professional card-based layout with Material Design
-
-### 4. ⚙️ Settings & Customization
-- **Timer Settings:**
-  - Keep Screen On toggle
-  - Sound Notifications toggle
-  - Vibration toggle
-- **Session Settings:**
-  - Auto-start Break toggle
-  - Daily Focus Goal (1-12 hours adjustable)
-- **Data Management:**
-  - Reset All Statistics with confirmation
-- Professional app info section
-
-### 5. 🔄 Auto Session Flow
-- Automatic switch to break mode after focus completion
-- Automatic return to focus mode after break ends
-- Smart session counter (4-session Pomodoro cycles)
-- Seamless transitions between modes
-- Toast notifications for mode changes
-
-### 6. 💾 Data Persistence System
-- SQLite database for session history
-- SharedPreferences for user settings
-- Automatic data seeding (12 sample sessions)
-- Complete CRUD operations
-- Complex queries for statistics
-- Session tracking with timestamps
-
-### 7. 🎨 Professional Material Design UI
-- Bottom Navigation Bar (4 tabs: Timer, History, Stats, Settings)
-- Blue primary color scheme (#2563EB)
-- MaterialCardView throughout
-- Floating Action Buttons
-- Switch toggles and modern controls
-- NO emojis - all Material Design icons
-- Responsive layouts with ConstraintLayout
-
----
-
 ## 🛠️ Technical Implementation
 
 ### Architecture & Components
@@ -126,47 +60,11 @@
 - **Layout:** ConstraintLayout, LinearLayout, ScrollView
 - **Components:** MaterialButton, MaterialCardView, TextInputLayout
 
-### Key Android Concepts Demonstrated
 
-✅ **Activities & Intents** - Navigation between 4 activities with bottom nav  
-✅ **Activity Lifecycle** - Proper handling of onCreate, onResume, onDestroy  
-✅ **SQLite Database** - Full CRUD operations with aggregate queries  
-✅ **Custom ListView** - Custom adapter with ViewHolder pattern  
-✅ **SharedPreferences** - Storing settings and user preferences  
-✅ **Threading** - CountDownTimer for background countdown  
-✅ **Material Design** - Cards, FABs, switches, bottom navigation  
-✅ **Layouts** - ConstraintLayout, LinearLayout, ScrollView  
-✅ **Resources** - Strings, colors, themes configuration  
-✅ **Dialogs** - AlertDialog for confirmations  
-✅ **Professional UI** - Clean design without emojis  
 
 ---
 
-## 📸 Screenshots
 
-### Main Timer Screen
-- Large circular countdown timer (home screen)
-- Preset duration buttons below timer
-- Session counter display
-- Floating action buttons for controls
-- Bottom navigation bar
-
-### Session History
-- Professional card-based list design
-- Session details with completion status
-- Clean Material Design cards
-
-### Statistics Dashboard
-- 4 metric cards in grid layout
-- Personalized insights section
-- Real-time calculated data
-
-### Settings
-- All toggles and controls
-- Daily goal adjuster
-- Reset statistics option
-
----
 
 ## 🚀 Getting Started
 
