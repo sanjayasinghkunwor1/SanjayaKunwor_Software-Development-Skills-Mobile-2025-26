@@ -240,18 +240,6 @@ I recorded a demo video showing all 7 features of the app. I'm proud of what I'v
 
 ---
 
-## Project Features Summary
-
-**7 Core Features for Video Demonstration:**
-
-1. ✅ **Pomodoro Timer** - Large circular countdown on main screen with preset buttons
-2. ✅ **Session History** - ListView with custom adapter showing all past sessions
-3. ✅ **Statistics Dashboard** - 4 key metrics with real-time data aggregation
-4. ✅ **Settings & Customization** - Toggles, daily goal, and reset functionality
-5. ✅ **Auto Session Flow** - Seamless transitions between focus and break modes
-6. ✅ **Data Persistence** - SQLite database + SharedPreferences for complete data management
-7. ✅ **Professional UI** - Bottom navigation, Material Design, no emojis, blue theme
-
 ---
 
 **Final Thoughts:**
