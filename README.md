@@ -185,52 +185,10 @@ The video covers:
 6. Exploring settings and customization options
 7. Bottom navigation demonstration
 
----
-
-## 🧪 Testing
-
-### Manual Testing Performed
-
-- ✅ Timer countdown accuracy
-- ✅ Pause/Resume functionality
-- ✅ Session completion flow
-- ✅ Database CRUD operations
-- ✅ ListView scrolling performance
-- ✅ Achievement unlock conditions
-- ✅ Statistics calculations
-- ✅ Activity lifecycle handling
-- ✅ Back button behavior
-- ✅ Dialog interactions
-- ✅ Empty state handling
-
-### Known Limitations
-
-- No cloud sync (local SQLite only)
-- No background notifications
-- No widget support
-- Timer pauses when app is in background
-
----
-
-## 🔮 Future Enhancements
-
-- 📱 Home screen widget for quick access
-- 🔔 Background notifications when timer completes
-- ☁️ Cloud sync with Firebase
-- 📈 Charts and graphs for progress visualization
-- 🌙 Dark mode theme
-- 🎯 Weekly/monthly goal tracking
-- 📤 Export session data as CSV
-
----
-
 ## 👨‍💻 Developer
 
 **Sanjaya Singh Kunwor**  
 Student Number: 002678485  
-Email: [your.email@example.com]  
-LinkedIn: [Your LinkedIn Profile]  
-GitHub: [@yourusername](https://github.com/yourusername)
 
 ---
 
@@ -240,7 +198,7 @@ This project was created as part of the Mobile Development Skills course at Lapp
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - LUT Mobile Development course instructors
 - Material Design team for UI components
