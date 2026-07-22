@@ -79,7 +79,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/AndroidAssignment.git
+   git clone https://github.com/sanjayasinghkunwor1/SanjayaKunwor_Software-Development-Skills-Mobile-2025-26.git
    cd AndroidAssignment
    ```
 
